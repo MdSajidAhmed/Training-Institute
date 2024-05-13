@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+/* Banner  */
+.banner {
+    background-color: #683091;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Navbar  */
+.navbr {
+    background-color: #160125;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.navbr a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 60px;
+   
+}
+.active_nav {
+    background-color: green;
+}
+.navbr a:hover {
+    background-color: white;
+    color: black
+}
